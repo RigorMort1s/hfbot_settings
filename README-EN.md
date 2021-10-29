@@ -22,7 +22,7 @@
 | trailing_stop | Trailing stop <br> **trailing_stop="0.4"** | float | - |
 | limit_stop | Limit stop <br> **limit_stop="0.6"** | float | - |
 | log_distribution | Enable bot logging (true/false) <br> **log_distribution="true"** | boolean | false |
-| time_sleep | Time of exchange polling (from 20.0 ms to infinite) <br> **time_sleep="40.0"** | float | 20.0 |
+| time_sleep | Time of exchange polling (from 20.0 seconds to infinite) <br> **time_sleep="40.0"** | float | 20.0 |
 | martingale | Martingale if you don't use indicator entry <br> **martingale="80.0"** | float | - |
 | profit | Take profit if you don't use indicators <br> **profit="2.0"** | float | - |
 | back_profit | With each safety order, the take profit decreases, unless the value is set to 0.0 <br> **back_profit="0.0"** | float | 0.0 |
